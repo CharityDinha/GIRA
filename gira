@@ -1,0 +1,23 @@
+using System;
+
+namespace gira
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string characterName = "knowledge";
+            int characterAge;
+            characterAge = 31;
+
+            Console.WriteLine("There once was a man named " + characterName); ;
+            Console.WriteLine("He was " + characterAge + " years old");
+
+                characterName = "Knowledge";
+            Console.WriteLine("He really liked the name " + characterName);
+            Console.WriteLine("But didn't like being " + characterAge);
+
+            Console.ReadLine();
+        }
+    }
+}
